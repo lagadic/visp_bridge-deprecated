@@ -8,7 +8,7 @@ catkin_package(
   INCLUDE_DIRS include
   LIBRARIES ${PROJECT_NAME}
   CATKIN_DEPENDS roscpp std_msgs geometry_msgs sensor_msgs
-  DEPENDS VISP
+#  DEPENDS VISP
 )
 
 add_library(${PROJECT_NAME} 
