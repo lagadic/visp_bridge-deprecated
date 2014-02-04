@@ -46,14 +46,14 @@
   \file 3dpose.cpp
   \brief conversions between ROS and ViSP structures representing a 3D pose
 */
-#include "visp/vpConfig.h"
-#include "3dpose.h"
+#include <visp/vpConfig.h>
+#include <visp_bridge/conversions/3dpose.h>
 #include <cmath>
 
 #if VISP_VERSION_INT > (2<<16 | 6<<8 | 1)
 #include <visp/vpQuaternionVector.h>
 #else
-#include "../vpQuaternionVector.h"
+#include <visp_bridge/vpQuaternionVector.h>
 #include <visp/vpRotationMatrix.h>
 #endif
 #include <visp/vpTranslationVector.h>

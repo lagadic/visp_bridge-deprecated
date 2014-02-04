@@ -40,7 +40,7 @@
  *****************************************************************************/
 
 
-#include "vpQuaternionVector.h"
+#include <visp_bridge/vpQuaternionVector.h>
 #include <visp/vpMath.h>
 #include <stdio.h>
 #include <string.h>
